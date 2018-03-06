@@ -1,6 +1,4 @@
-1. Front-End Web Dev
-
-Lesson 2 :HTML Syntax 
+Lesson 2 : HTML Syntax 
 
 Quiz - Make Your First Element 
 
@@ -41,3 +39,447 @@ Quiz - HTML Research
 
 <p><b>This text should be bold.</b></p>
 <p><em>And this text should have emphasis (italics).</em></p>
+
+
+Lesson 3 : HTML Syntax Problem Set
+
+Quiz : Make all the Headers 
+
+headandshoulders
+
+Quiz : Make a list
+
+listlistlistlist
+
+Quiz : Tree To HTML
+
+letsclimbatree
+
+Quiz : Constructing Links
+
+<a href="https://www.google.com">Google</a>
+
+Quiz : Add an Image
+
+<!--
+Sample image element:
+
+    <img src="http://somewebsite.com/image.jpg" alt="short description">
+
+How to complete this quiz:
+
+* Create an image element at the designated spot in the paragraph below.
+* Set the source to: http://udacity.github.io/fend/images/udacity.png
+* Set the alt description to a quick description of the image (maybe something like, "Udacity logo").
+* Play around with the URL! See if you can make a different image appear.
+-->
+
+<p>
+    <img src="http://udacity.github.io/fend/images/udacity.png" alt="Udacity Logo">
+    This is a big paragraph of text about Udacity. Cool. Cool. And here is an image! <!-- put the image element here! --> Here's another question for you: how is the text reacting to the image? Is the image on its own line or is it showing up in the same last as the rest of the text?
+</p>
+
+Quiz : Figures
+
+arenttreescool?
+
+
+Lesson 5 : CSS Syntax
+
+Quiz : CSS or HTML?
+
+3
+
+Quiz : CSS Syntax
+
+<!DOCTYPE html>
+
+<!-- Instructions: Change the color of "Hello, world!" to green. -->
+
+<html>
+<head>
+	<title>Quiz - Hello, world!</title>
+    <style>
+    h1{
+        color:green;
+    }
+		p {
+			color: blue;
+		}        
+        /* add CSS here */
+    </style>
+</head>
+<body>
+	<h1>Hello, world!</h1>
+	<p>Are you ready for your first challenge?</p>
+	<p>Let's add some style to this webpage!</p>
+</body>
+</html>
+
+Quiz : Tag Selectors
+
+All Paragraphs
+
+Quiz : Using Selectors
+
+<div class="right"></div>
+<p class="highlight module right"></p>
+
+Quiz : Using CSS References
+
+font-style
+text-decoration
+text-transform
+font-weight
+
+Quiz : Units in CSS
+
+<!DOCTYPE html>
+
+<!-- Instructions: Add the following changes to this webpage:
+
+* set the first div's width to 100px (pixels)
+* set the second div's height to 200px (pixels)
+* set the third div's margin to 1em
+* set the fourth div's font-size to 2em
+
+-->
+
+<html>
+<head>
+    <title>Quiz - Units in CSS</title>
+    <style>
+    	.first {
+    	    width:100px;
+            /* add CSS here */
+    	}
+    	.second {
+    	    height:200px;
+            /* add CSS here */
+    	}
+    	.third {
+    	    margin:1em;
+            /* add CSS here */
+    	}
+    	.fourth {
+    	    font-size:2em;
+            /* add CSS here */    		
+    	}
+    </style>
+</head>
+<body>
+	<div class="first"></div>
+	<div class="second"></div>
+	<div class="third">Hammock ex plaid nulla. Nihil stumptown gastropub, dreamcatcher gochujang franzen cillum cliche keffiyeh pop-up pug small batch knausgaard. Fanny pack elit you probably haven't heard of them before they sold out. Sint elit tofu et veniam irony 3 wolf moon. VHS slow-carb trust fund chartreuse wolf. Qui sed dreamcatcher cronut, hoodie fixie normcore. Gochujang dolor consectetur post-ironic.</div>
+	<div class="fourth">Hammock ex plaid nulla. Nihil stumptown gastropub, dreamcatcher gochujang franzen cillum cliche keffiyeh pop-up pug small batch knausgaard. Fanny pack elit you probably haven't heard of them before they sold out. Sint elit tofu et veniam irony 3 wolf moon. VHS slow-carb trust fund chartreuse wolf. Qui sed dreamcatcher cronut, hoodie fixie normcore. Gochujang dolor consectetur post-ironic.</div>
+</body>
+</html>
+
+Quiz : Identifying Colors
+
+color : blue;
+color : rgb(0 ,0 ,255);
+color :  300f;
+
+
+
+Lesson 6 : CSS Syntax Problem Set
+
+Quiz : Style an Image
+
+<!DOCTYPE html>
+
+<!-- Instructions: Replicate the same styling seen in the kitten image below. -->
+
+<html>
+<head>
+    <title>Style an Image Quiz</title>
+    <style>
+    	.kitten-image {
+    	   border: dashed red;
+            /* add CSS here */
+    	}
+    </style>
+</head>
+<body>
+    <!-- Image credit: Nicolas Suzor, https://www.flickr.com/photos/nicsuzor/ - via Flickr, Creative Commons. -->
+        <img src="http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten.jpg" alt="kitten" class="kitten-image">
+</body>
+</html>
+
+Quiz : Style the Font
+
+<!DOCTYPE html>
+
+<!-- Instructions: Replicate the same styling seen in the Udacity text below. -->
+
+<html>
+<head>
+    <title>Style the Font Quiz</title>
+    <style>
+    	.udacity-text {
+            /* add CSS here */
+    	}
+    </style>
+</head>
+<body>
+    <h1 class="udacity-text">udacity</h1>
+</body>
+</html>
+
+Quiz : Writing Selectors
+
+andtheSELECTIONis
+
+Quiz : Using Attributes
+
+<!DOCTYPE html>
+
+<!-- Instructions: Using the provided HTML and CSS, add the correct attributes to the HTML to replicate the same webpage pictured below. -->
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Using Attributes Quiz</title>
+	<style>
+        body {
+            font-family: Arial; 
+        }
+        #to-do-list {
+            width: 400px;
+            background: #2e3d49;
+            padding: 10px 20px;
+        }
+        .title {
+            color: #fff;
+        }
+        .underline {
+            text-decoration: underline;
+            
+        } 
+        .list {
+            list-style-type: circle;
+            text-align: left;
+            font-size: 16px;
+            color: #1fba58;
+            line-height: 24px;
+        }
+        .finished {
+            color: #f4442f;
+            text-decoration: line-through;
+        }
+	</style>
+</head>
+<body>
+	<div id="to-do-list">
+		<h1 class="title">My To-Do List</h1>
+		<h2 class="underline title">Chores</h2>
+		<ul class="list">
+			<li>load the diswasher</li>
+			<li>vacuum living room</li>
+			<li>take out garbage</li>
+			<li class="finished">sweep the garage</li>
+		</ul>
+		<h2 class="underline title">Homework</h2>
+		<ul class="list">
+			<li class="finished">brainstorm ideas for Science project</li>
+			<li class="finished">finish Calculus 2 problems</li>
+			<li>study for Programming midterm :P</li>
+            <li>finish Project 0 on Udacity FEND</li>
+			<li class="finished">find sources for Biology research paper</li>
+			<li>read first two chapters of The Art of War</li>
+		</ul>
+        <h2 class="underline title">Party</h2>
+        <ul class="list">
+            <li class="finished">send out invitations</li>
+            <li>reserve party room at restaurant</li>
+            <li>order the cake!</li>
+        </ul>
+	</div>
+</body>
+</html>
+
+Quiz : Slack Card
+
+imnotslacking
+
+Quiz : Udacity Site Header
+
+fullsteamahead
+
+Quiz : Link to a Stylesheet
+
+aLINKtotheSTYLEZ
+
+
+Lesson 7 : How to write Code Faster
+
+Quiz : Keyboard Shortcuts
+
+150
+61
+
+Quiz : What’s Your Favorite Theme?
+
+City Lights Syntax Theme
+
+
+Lesson 11 : Data Types & Variables 
+
+Quiz : First Expression (2-1)
+
+/*
+ * Programming Quiz: First Expression (2-1)
+ *
+ * Write an expression that uses at least three, different, arithmetic operators
+ * to log the number 42 to the console.
+ */
+
+// this expression equals 4, change it to equal 42
+console.log(39 + 5 - 2);
+console.log(80 / 2 + 2);
+console.log(2 * 20 + 2);
+
+Quiz : Converting Temperatures (2-2)
+
+/*
+ * Programming Quiz: Converting Tempatures (2-2)
+ *
+ * Use the Celsius-to-Fahrenheit formula to set the fahrenheit varible:
+ *
+ *     F = C x 1.8 + 32
+ *
+ * Log the fahrenheit variable to the console.
+ *
+ */
+
+var celsius = 12;
+var fahrenheit = celsius*(1.8)+32; /* convert celsius to fahrenheit here */
+
+console.log( fahrenheit/* print out result here */);
+
+Quiz : Favorite Food (2-3)
+
+/*
+ * Programming Quiz: Favorite Food (2-3)
+ */
+var Food1 = "Dahi";
+var Food2 = "Egg";
+var Food3 = "Milk";
+console.log(Food1,Food2,Food3/* replace this comment with your string */);
+
+Quiz : String Equality for All (2-4)
+
+/*
+ * Programming Quiz: String Equality for All (2-4)
+ */
+
+// fix the right side of the expression
+var answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
+console.log(answer);
+
+Quiz : All Tied Up (2-5)
+
+/*
+ * Programming Quiz: All Tied Up (2-5)
+ */
+
+var joke = "Why couldn't the shoes go out and play? \nThey were all tied up!"; /* write your joke here */
+console.log(joke);
+
+Quiz : Yosa Buson (2-6)
+
+/*
+ * Programming Quiz: Yosa Buson (2-6)
+ */
+
+var haiku = "Blowing from the west\n" + "Fallen leaves gather\n" + "In the east." ;
+console.log(haiku);
+
+Quiz : Facebook Post (2-7)
+
+String
+String
+String
+Boolean
+Number
+
+Quiz : Semicolons! (2-8)
+
+/*
+ * Programming Quiz: Semicolons! (2-8)
+ */
+
+// your code goes here
+var thingOne="red";
+var thingTwo="blue";
+console.log(thingOne+" "+ thingTwo);
+
+Quiz : What's my Name? (2-9)
+
+/*
+ * Programming Quiz: What's my Name? (2-9)
+ */
+
+// your code goes here
+var fullName = "Kshitij Sharma";
+
+Quiz : Out to Dinner (2-10)
+
+/*
+ * Programming Quiz: Out to Dinner (2-10)
+ */
+
+// your code goes here
+var bill = 10.25 + 3.99 + 7.15;
+var tip = 0.15 * bill;
+var total = tip + bill;
+console.log("$"+total.toFixed(2));
+
+Quiz : Mad Libs (2-11)
+
+/*
+ * Programming Quiz: MadLibs (2-11)
+ * 
+ * 1. Declare a madLib variable
+ * 2. Use the adjective1, adjective2, and adjective3 variables to set the madLib variable to the message:
+ * 
+ * 'The Intro to JavaScript course is amazing. James and Julia are so fun. I cannot wait to work through the rest of this entertaining content!'
+ */
+
+var adjective1 = 'amazing';
+var adjective2 = 'fun';
+var adjective3 = 'entertaining';
+
+// your code goes here
+var madLib = "The Intro to JavaScript course is " + adjective1 + ". James and Julia are so " + adjective2 + ". I cannot wait to work through the rest of this " + adjective3 +" content!";
+console.log(madLib);
+
+
+Quiz : One Awesome Message (2-12)
+
+/*
+ * Programming Quiz: One Awesome Message (2-12)
+ *
+ * 1. Create the variables:
+ *     - firstName
+ *     - interest
+ *     - hobby
+ * 2. Create a variable named awesomeMessage and, using string concatenation 
+      and the variables above, create an awesome message.
+ * 3. Print the awesomeMessage variable to the console.
+ */
+ 
+/*
+ * Notes:
+ * - Using the above as an example, firstName would have been assigned to
+ *   "Julia", interest to "cats", and hobby to "play video games".
+ * - Be sure to include spaces and periods where necessary!
+ */
+
+// Add your code here
+var firstName = "Julia";
+var interest = "cats";
+var hobby = "play video games";
+var awesomeMessage = "Hi, my name is "+ firstName + "." + " I love " + interest + "." +  " In my spare time, I like to "+ hobby + ".";
+console.log(awesomeMessage);
