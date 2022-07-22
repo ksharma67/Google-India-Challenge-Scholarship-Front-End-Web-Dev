@@ -1,4 +1,4 @@
-# Udacity-Nano-Degree-Course
+# Google India Challenge Scholarship: Front-End Web Dev
 
 My Solutions
 
